@@ -24,7 +24,9 @@ namespace Biblioteca2017
         /// </summary>
         public ICollection<Valoracion> Valoraciones { get; private set; }
 
-        private Libro() { }
+        private Libro() {
+            Valoraciones = new List<Valoracion>();
+        }
 
         /// <summary>
         /// Realiza el cambio de condicion cuando un libro es reservado
