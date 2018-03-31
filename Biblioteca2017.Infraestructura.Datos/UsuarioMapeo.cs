@@ -14,7 +14,7 @@ namespace Biblioteca2017.Infraestructura.Datos
             ToTable("USUARIOS");
             HasKey(k => k.CodigoUsuario);
             Property(k => k.CodigoUsuario).HasColumnName("COD_USUARIO");
-            Property(k => k.NombreUsuario).HasColumnName("NOM_USUARIO").HasMaxLength(100);
+            Property(k => k.NombreUsuario).HasColumnType("varchar").HasColumnName("NOM_USUARIO").HasMaxLength(100);
         }
     }
 }

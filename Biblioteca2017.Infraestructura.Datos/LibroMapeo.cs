@@ -16,7 +16,7 @@ namespace Biblioteca2017.Infraestructura.Datos
             ToTable("LIBROS");
             HasKey(k => k.CodigoLibro);
             Property(k => k.CodigoLibro).HasColumnName("COD_LIBRO").HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
-            Property(k => k.NombreLibro).HasColumnName("TITULO").HasMaxLength(100);
+            Property(k => k.NombreLibro).HasColumnName("TITULO").HasMaxLength(100).IsRequired();
             Ignore(k => k.Reservado);
         }
     }
