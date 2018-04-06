@@ -50,6 +50,7 @@
     <Compile Include="BibliotecaContexto.cs" />
     <Compile Include="LibroMapeo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorio.cs" />
     <Compile Include="UsuarioMapeo.cs" />
     <Compile Include="ValoracionMapeo.cs" />
   </ItemGroup>
