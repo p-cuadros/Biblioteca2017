@@ -24,9 +24,9 @@ namespace Biblioteca2017.Infraestructura.Datos
             ioContexto.SaveChanges();
         }
 
-        public IList<T> Listar<T>() where T : class
+        public IQueryable<T> Listar<T>() where T : class
         {
-            return ioContexto.Set<T>().ToList();
+            return ioContexto.Set<T>();
         }
 
         public T ObtenerPorCodigo<T>(params object[] aoLlaves) where T : class

@@ -9,7 +9,7 @@ namespace Biblioteca2017
     public interface IRepositorio
     {
         T ObtenerPorCodigo<T>(params object[] aoLlaves) where T : class;
-        IList<T> Listar<T>() where T : class;
+        IQueryable<T> Listar<T>() where T : class;
         void Adicionar<T>(T aoObjeto) where T : class;
         void GuardarCambios();
     }
