@@ -17,5 +17,7 @@ namespace Biblioteca2017.PruebasUnitarias
             //La propiedad Valoraciones debe tener al menos una valoracion
             Assert.IsTrue(libro.Valoraciones.Count > 0);
         }
+
+        ///Prueba de un metodo de la clase Prestamo
     }
 }
