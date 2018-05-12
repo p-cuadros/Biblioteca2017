@@ -7,6 +7,9 @@ namespace Biblioteca2017
 {
     public class Valoracion
     {
+        /// <summary>
+        /// representa el numero de la valoracion
+        /// </summary>
         public int NumeroValoracion { get; private set; }
 
         public DateTime FechaValoracion { get; private set; }
