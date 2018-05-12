@@ -45,6 +45,22 @@ namespace Biblioteca2017
         #endregion
 
         #region METODOS - completar y comentar
+        // CONSTRUCTOR Prestamo
+        public Prestamo(Libro xLibro, Usuario xUsuario)
+        {
+            //Establecer codigo de usuario
+            this.CodigoUsuario = xUsuario.CodigoUsuario;
+            //Establecer codigo de libro
+            this.CodigoLibro = xLibro.CodigoLibro;
+            //Establecer fecha de prestamo
+            this.FechaPrestamo = DateTime.Today;
+            //Establecer clase Libro
+            this.Libro = xLibro;
+            //Establecer clase Usuario
+            this.Usuario = xUsuario;
+        }
+
+
 
         #endregion
 
