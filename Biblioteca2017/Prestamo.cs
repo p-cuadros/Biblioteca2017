@@ -58,6 +58,7 @@ namespace Biblioteca2017
             this.Libro = xLibro;
             //Establecer clase Usuario
             this.Usuario = xUsuario;
+
         }
 
 
