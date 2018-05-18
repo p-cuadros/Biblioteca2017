@@ -44,6 +44,7 @@ namespace Biblioteca2017
         public void Devolver()
         {
             Reservado = false;
+
         }
         /// <summary>
         /// Realiza la valoración de un Libro
