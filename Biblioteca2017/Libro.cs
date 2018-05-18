@@ -34,6 +34,9 @@ namespace Biblioteca2017
         public void Reservar()
         {
             Reservado = true;
+
+            return Reservado;
+
         }
         /// <summary>
         /// Realiza el cambio de condicion cuando un libro es devuelto
